@@ -138,3 +138,4 @@ docker push us-central1-docker.pkg.dev/meliappback/meli-app-api-repo/mebackquasa
 
 Puede ingresar dando click [aquí](https://mebackquasar-image-zeityctk4q-uc.a.run.app/swagger/index.html)
 
+En la carpeta Curl-Postman se encuentra el json donde puede importar el consumo de las apies desde Postman
