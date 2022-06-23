@@ -52,7 +52,7 @@ La base de datos que se utilizó para almacenar los datos se llama Datastore de 
 
 
 ## Dominio 🔩
-Esta capa comprende todo lo relacionado con la lógica que negocio del proyecto.
+Esta capa comprende todo lo relacionado con la lógica de negocio del proyecto.
 La cual tiene dos Servicios:
 - LocationService: Este servicio está encargado de realizar toda la lógica para triangular la posición de la nave.
 - MessageService: Este servicio se encarga de realizar la lógica para encontrar el mensaje de auxilio.
