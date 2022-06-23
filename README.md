@@ -12,14 +12,14 @@ esta consiste en tener tres satelites en diferentes puntos conocidos en el espac
 - Skywalker: [100, -100] 
 - Sato: [500, 100] 
 
-![Screenshot](https://github.com/branmous/meli-back/blob/main/images/satellites.png?raw=true)
+![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/satellites.png?raw=true)
 
 Cada Satelite emite una señal para su receptor conocida como distancia, esta forma un círculo igual en todas las direcciones, lo cual determina que la posicion podria estar en cualquier parte de este radio específico.
-![Screenshot](https://github.com/branmous/meli-back/blob/main/images/satellitesradio.png?raw=true)
+![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/satellitesradio.png?raw=true)
 
 ##Formula
 De acuerdo al metodo matematico la formula es la siguiente
-![Screenshot](https://github.com/branmous/meli-back/blob/main/images/formula.png?raw=true)
+![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/formula.png?raw=true)
 
 
 ## Solcución Técnica
@@ -50,7 +50,7 @@ Para este caso se creo un Modelo llamado Location el cual almacena la informacio
 | Message | Array String |
 
 La base de datos que se utilizo para almacenar los datos se llama Datastore de Google App Engine 
-![Screenshot](https://github.com/branmous/meli-back/blob/main/images/datastore.png?raw=true)
+![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/datastore.png?raw=true)
 
 
 ## Dominio 🔩
@@ -119,7 +119,7 @@ Esta capa expone los endpoint encargados de recibir las peticiones de la nave po
 ## Hosting
 El proyecto se encuentra alojado en un Google App Engine utilizando la siguiente Guia [Create-app](https://cloud.google.com/appengine/docs/flexible/dotnet/create-app)
 
-![Screenshot](https://github.com/branmous/meli-back/blob/main/images/projectName.png?raw=true)
+![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/projectName.png?raw=true)
 
 ## Docker
 
@@ -134,7 +134,7 @@ docker push us-central1-docker.pkg.dev/meliappback/meli-app-api-repo/mebackquasa
 
 ## Proyecto
 
-![Screenshot](https://github.com/branmous/meli-back/blob/main/images/projectv2.png?raw=true)
+![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/projectv2.png?raw=true)
 
 
 
