@@ -1,13 +1,10 @@
 # Operación Fuego de Quasar
 ## Brandon Steven Montoya Usuga
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 A continuación se realizará una descripción técnica de la solución desarrollada para la prueba técnica de MELI Fuego de Quasar
 
-## Solución Teoria
-Para la solución de la prueba se investigo la geolocalización por Trilateración la cual implica la medición de distancias.
-esta consiste en tener tres satelites en diferentes puntos conocidos en el espacio, para el ejemplo nuestros los tres satelites tienen la siguentes posiciones:
+## Solución teórica
+Para la solución de la prueba se investigó la geolocalización por trilateración, la cual implica la medición de distancias. Esta consiste en tener tres satélites en diferentes puntos conocidos en el espacio, para el ejemplo nuestros los tres satélites tienen las siguientes posiciones:
 - Kenobi: [-500, -200] 
 - Skywalker: [100, -100] 
 - Sato: [500, 100] 
