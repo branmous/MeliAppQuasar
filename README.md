@@ -11,11 +11,12 @@ Para la solución de la prueba se investigó la geolocalización por trilateraci
 
 ![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/satellites.png?raw=true)
 
-Cada Satelite emite una señal para su receptor conocida como distancia, esta forma un círculo igual en todas las direcciones, lo cual determina que la posicion podria estar en cualquier parte de este radio específico.
+Cada Satélite emite una señal para su receptor conocida como distancia, esta forma un círculo igual en todas las direcciones, lo cual determina que la posición podría estar en cualquier parte de este radio específico.
 ![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/satellitesradio.png?raw=true)
 
-##Formula
-De acuerdo al metodo matematico la formula es la siguiente
+## Formula
+
+De acuerdo al método matemático, la fórmula es la siguiente
 ![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/formula.png?raw=true)
 
 
@@ -38,15 +39,15 @@ Open Browser http://localhost:5175/swagger/index.html
 ## Arquitectura
 El proyecto está compuesto por una arquitectura de 3 Capas: Infraestructura, Dominio, Presentación en la cual se realizara una descripción de cada una de las capas
 ## Infraestructura 🔩
-Esta capa comprende todo lo relacionado con el modelo de base de datos y los repositorios que generan todo el Crud.
-Para este caso se creo un Modelo llamado Location el cual almacena la informacion de los satelites con la siguiente estrucutura:
+Esta capa comprende todo lo relacionado con el modelo de base de datos y los repositorios que generan todo el Crud. 
+Para este caso se creó un Modelo llamado Location el cual almacena la información de los satélites con la siguiente estructura:
 | Nombre del campo | Tipo de dato |
 | ------ | ------ |
 | Name | String |
 | Distance | Double |
 | Message | Array String |
 
-La base de datos que se utilizo para almacenar los datos se llama Datastore de Google App Engine 
+La base de datos que se utilizó para almacenar los datos se llama Datastore de Google App Engine
 ![Screenshot](https://github.com/branmous/MeliAppQuasar/blob/main/images/datastore.png?raw=true)
 
 
